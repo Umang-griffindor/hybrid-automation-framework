@@ -1,4 +1,5 @@
 from playwright.sync_api import expect
+from utils.logger import get_logger
 
 
 class BasePage:
@@ -6,11 +7,16 @@ class BasePage:
     def __init__(self, page):
 
         self.page = page
+        self.logger = get_logger()
 
 
     def navigate(self, url):
 
+        self.logger.info(f"Opening URL: {url}")
+
         self.page.goto(url)
+
+        self.page.wait_for_load_state("networkidle")
 
 
     def get_title(self):
@@ -20,10 +26,18 @@ class BasePage:
 
     def click_element(self, locator):
 
+        self.logger.info(
+            f"Clicking locator: {locator}"
+        )
+
         self.page.locator(locator).click()
 
 
     def enter_text(self, locator, text):
+
+        self.logger.info(
+            f"Entering text into locator: {locator}"
+        )
 
         self.page.locator(locator).fill(text)
 
@@ -40,7 +54,11 @@ class BasePage:
 
     def get_element_text(self, locator):
 
-        return self.page.locator(locator).inner_text()
+        self.logger.info(
+            f"Getting text from locator: {locator}"
+        )
+
+        return self.page.locator(locator).text_content()
 
 
     def expect_element_visible(self, locator):

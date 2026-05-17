@@ -1,0 +1,24 @@
+2026-05-17 14:07:18,205 - INFO - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-17 14:07:23,726 - INFO - Entering text into locator: #username
+2026-05-17 14:07:23,775 - INFO - Entering text into locator: #password
+2026-05-17 14:07:23,811 - INFO - Clicking locator: #submit
+2026-05-17 14:07:34,364 - INFO - Getting text from locator: .post-title
+2026-05-17 14:19:48,470 - INFO - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-17 14:19:53,043 - INFO - Entering text into locator: #username
+2026-05-17 14:19:53,098 - INFO - Entering text into locator: #password
+2026-05-17 14:19:53,136 - INFO - Clicking locator: #submit
+2026-05-17 14:19:54,825 - INFO - Getting text from locator: .post-title
+2026-05-17 14:28:05,199 - INFO - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-17 14:28:13,887 - INFO - Entering text into locator: #username
+2026-05-17 14:28:13,931 - INFO - Entering text into locator: #password
+2026-05-17 14:28:13,967 - INFO - Clicking locator: #submit
+2026-05-17 14:28:19,055 - INFO - Getting text from locator: .post-title
+2026-05-17 14:30:11,663 - INFO - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-17 14:30:11,663 - INFO - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-17 14:30:18,266 - INFO - Entering text into locator: #username
+2026-05-17 14:30:18,273 - INFO - Entering text into locator: #username
+2026-05-17 14:30:18,313 - INFO - Entering text into locator: #password
+2026-05-17 14:30:18,313 - INFO - Entering text into locator: #password
+2026-05-17 14:30:18,364 - INFO - Clicking locator: #submit
+2026-05-17 14:30:18,364 - INFO - Clicking locator: #submit
+2026-05-17 14:30:20,747 - INFO - Getting text from locator: .post-title

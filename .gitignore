@@ -1,7 +1,8 @@
 venv/
 .venv/
 __pycache__/
-.pytest_cache/
 playwright-report/
 test-results/
 screenshots/
+.pytest_cache/
+.DS_Store
