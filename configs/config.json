@@ -1,0 +1,9 @@
+{
+    "base_url": "https://practicetestautomation.com/practice-test-login/",
+    
+    "username": "student",
+
+    "password": "Password123",
+
+    "timeout": 30000
+}
