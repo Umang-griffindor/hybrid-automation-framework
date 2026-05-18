@@ -29,11 +29,23 @@ class LoginPage(BasePage):
 
     def login(self, username, password):
 
-        self.enter_text(self.USERNAME_INPUT, username)
+        self.wait_for_element_visible(
+        self.USERNAME_INPUT
+        )
 
-        self.enter_text(self.PASSWORD_INPUT, password)
+        self.enter_text(
+        self.USERNAME_INPUT,
+        username
+        )
 
-        self.click_element(self.SUBMIT_BUTTON)
+        self.enter_text(
+        self.PASSWORD_INPUT,
+        password
+        )
+
+        self.click_element(
+        self.SUBMIT_BUTTON
+        )
 
 
     def get_success_message(self):

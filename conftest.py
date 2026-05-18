@@ -12,18 +12,18 @@ def pytest_runtest_makereport(item, call):
     setattr(item, "rep_" + rep.when, rep)
 
 
-@pytest.fixture(scope="function")
+"""@pytest.fixture(scope="function")
 def browser_page(browser):
 
     page = browser.new_page()
 
     yield page
 
-    page.close()
+    page.close()"""
 
 
 @pytest.fixture(autouse=True)
-def screenshot_on_failure(request, browser_page):
+def screenshot_on_failure(request, page):
 
     yield
 
@@ -41,6 +41,6 @@ def screenshot_on_failure(request, browser_page):
                 f"{screenshots_dir}/{request.node.name}.png"
             )
 
-            browser_page.screenshot(path=screenshot_path)
+            page.screenshot(path=screenshot_path)
 
             print(f"\nScreenshot saved: {screenshot_path}")

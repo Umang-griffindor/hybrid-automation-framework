@@ -1,8 +1,8 @@
 from pages.login_page import LoginPage
 
-def test_invalid_login(browser_page):
+def test_invalid_login(page):
 
-    login_page = LoginPage(browser_page)
+    login_page = LoginPage(page)
 
     login_page.open_login_page()
 
@@ -12,5 +12,5 @@ def test_invalid_login(browser_page):
     )
 
     assert "Your username is invalid!" in (
-        browser_page.locator("#error").text_content()
+        page.locator("#error").text_content()
     )

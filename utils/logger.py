@@ -29,10 +29,18 @@ def get_logger():
     if not has_file_handler:
         file_handler = logging.FileHandler(desired_logfile)
         formatter = logging.Formatter(
-            "%(asctime)s - %(levelname)s - %(message)s"
+            "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
         )
         file_handler.setFormatter(formatter)
         logger.addHandler(file_handler)
+
+        console_handler = logging.StreamHandler()
+
+        console_handler.setFormatter(
+            formatter
+        )
+
+        logger.addHandler(console_handler)
 
     # Prevent messages from being propagated to the root logger (avoids duplicates).
     logger.propagate = False

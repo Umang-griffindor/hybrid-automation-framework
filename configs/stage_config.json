@@ -1,0 +1,6 @@
+{
+    "base_url": "https://practicetestautomation.com/practice-test-login/",
+    "username": "stage_user",
+    "password": "stage_password",
+    "api_base_url": "https://jsonplaceholder.typicode.com"
+}

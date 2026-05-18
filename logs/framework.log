@@ -22,3 +22,93 @@
 2026-05-17 14:30:18,364 - INFO - Clicking locator: #submit
 2026-05-17 14:30:18,364 - INFO - Clicking locator: #submit
 2026-05-17 14:30:20,747 - INFO - Getting text from locator: .post-title
+2026-05-18 16:56:49,955 - INFO - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 16:56:56,074 - INFO - Entering text into locator: #username
+2026-05-18 16:56:56,128 - INFO - Entering text into locator: #password
+2026-05-18 16:56:56,165 - INFO - Clicking locator: #submit
+2026-05-18 16:56:57,721 - INFO - Getting text from locator: .post-title
+2026-05-18 16:56:57,803 - INFO - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 17:00:28,193 - INFO - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 17:01:03,099 - INFO - Entering text into locator: #username
+2026-05-18 17:01:03,154 - INFO - Entering text into locator: #password
+2026-05-18 17:01:03,197 - INFO - Clicking locator: #submit
+2026-05-18 17:01:10,010 - INFO - Getting text from locator: .post-title
+2026-05-18 17:01:10,192 - INFO - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 17:12:30,586 - INFO - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 17:12:36,072 - INFO - Entering text into locator: #username
+2026-05-18 17:12:36,131 - INFO - Entering text into locator: #password
+2026-05-18 17:12:36,169 - INFO - Clicking locator: #submit
+2026-05-18 17:12:37,584 - INFO - Getting text from locator: .post-title
+2026-05-18 17:12:37,673 - INFO - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 17:12:40,895 - INFO - Entering text into locator: #username
+2026-05-18 17:12:40,925 - INFO - Entering text into locator: #password
+2026-05-18 17:12:40,967 - INFO - Clicking locator: #submit
+2026-05-18 17:26:55,434 - INFO - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 17:27:01,023 - INFO - Entering text into locator: #username
+2026-05-18 17:27:01,082 - INFO - Entering text into locator: #password
+2026-05-18 17:27:01,120 - INFO - Clicking locator: #submit
+2026-05-18 17:27:02,533 - INFO - Getting text from locator: .post-title
+2026-05-18 17:27:02,652 - INFO - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 17:27:06,724 - INFO - Entering text into locator: #username
+2026-05-18 17:27:06,754 - INFO - Entering text into locator: #password
+2026-05-18 17:27:06,798 - INFO - Clicking locator: #submit
+2026-05-18 17:27:31,996 - INFO - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 17:27:36,228 - INFO - Entering text into locator: #username
+2026-05-18 17:27:36,283 - INFO - Entering text into locator: #password
+2026-05-18 17:27:36,323 - INFO - Clicking locator: #submit
+2026-05-18 17:27:37,865 - INFO - Getting text from locator: .post-title
+2026-05-18 17:27:37,974 - INFO - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 17:27:42,250 - INFO - Entering text into locator: #username
+2026-05-18 17:27:42,281 - INFO - Entering text into locator: #password
+2026-05-18 17:27:42,324 - INFO - Clicking locator: #submit
+2026-05-18 17:27:53,107 - INFO - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 17:28:00,991 - INFO - Entering text into locator: #username
+2026-05-18 17:28:01,021 - INFO - Entering text into locator: #password
+2026-05-18 17:28:01,064 - INFO - Clicking locator: #submit
+2026-05-18 17:28:04,263 - INFO - Getting text from locator: .post-title
+2026-05-18 17:28:04,417 - INFO - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 17:28:11,135 - INFO - Entering text into locator: #username
+2026-05-18 17:28:11,159 - INFO - Entering text into locator: #password
+2026-05-18 17:28:11,207 - INFO - Clicking locator: #submit
+2026-05-18 20:34:06,830 | INFO | framework | Sending POST request to: https://jsonplaceholder.typicode.com/posts
+2026-05-18 20:34:08,011 | INFO | framework | Received response: 201
+2026-05-18 20:34:08,152 | INFO | framework | Sending POST request to: https://jsonplaceholder.typicode.com/posts
+2026-05-18 20:34:08,868 | INFO | framework | Received response: 201
+2026-05-18 20:34:09,005 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 20:34:09,005 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 20:34:14,436 | INFO | framework | Entering text into locator: #username
+2026-05-18 20:34:14,495 | INFO | framework | Entering text into locator: #password
+2026-05-18 20:34:14,535 | INFO | framework | Clicking locator: #submit
+2026-05-18 20:34:15,123 | INFO | framework | Getting text from locator: .post-title
+2026-05-18 20:34:24,974 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 20:34:24,974 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 20:34:28,324 | INFO | framework | Entering text into locator: #username
+2026-05-18 20:34:28,354 | INFO | framework | Entering text into locator: #password
+2026-05-18 20:34:28,399 | INFO | framework | Clicking locator: #submit
+2026-05-18 20:35:05,120 | INFO | framework | Sending POST request to: https://jsonplaceholder.typicode.com/posts
+2026-05-18 20:35:05,745 | INFO | framework | Received response: 201
+2026-05-18 20:35:05,886 | INFO | framework | Sending POST request to: https://jsonplaceholder.typicode.com/posts
+2026-05-18 20:35:06,959 | INFO | framework | Received response: 201
+2026-05-18 20:35:49,640 | INFO | framework | Sending POST request to: https://jsonplaceholder.typicode.com/posts
+2026-05-18 20:35:50,780 | INFO | framework | Received response: 201
+2026-05-18 20:35:50,920 | INFO | framework | Sending POST request to: https://jsonplaceholder.typicode.com/posts
+2026-05-18 20:35:51,577 | INFO | framework | Received response: 201
+2026-05-18 20:35:51,770 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 20:35:51,770 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 20:36:27,110 | INFO | framework | Entering text into locator: #username
+2026-05-18 20:36:27,156 | INFO | framework | Entering text into locator: #password
+2026-05-18 20:36:27,196 | INFO | framework | Clicking locator: #submit
+2026-05-18 20:36:28,274 | INFO | framework | Getting text from locator: .post-title
+2026-05-18 20:36:48,077 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 20:36:48,078 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 20:36:52,126 | INFO | framework | Entering text into locator: #username
+2026-05-18 20:36:52,156 | INFO | framework | Entering text into locator: #password
+2026-05-18 20:36:52,205 | INFO | framework | Clicking locator: #submit
+2026-05-18 20:36:52,300 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 20:36:52,300 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 20:37:04,164 | INFO | framework | Entering text into locator: #username
+2026-05-18 20:37:04,191 | INFO | framework | Entering text into locator: #password
+2026-05-18 20:37:04,230 | INFO | framework | Clicking locator: #submit
+2026-05-18 20:44:28,062 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 20:44:28,062 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 20:45:19,454 | INFO | framework | Waiting for element visibility: #username

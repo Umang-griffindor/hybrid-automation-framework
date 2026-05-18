@@ -14,7 +14,15 @@ class BasePage:
 
         self.logger.info(f"Opening URL: {url}")
 
-        self.page.goto(url)
+        self.logger.info(
+            f"Navigating to URL: {url}"
+        )
+
+        self.page.goto(
+            url,
+            wait_until="domcontentloaded",
+            timeout=60000
+        )
 
         self.page.wait_for_load_state("networkidle")
 
@@ -64,3 +72,56 @@ class BasePage:
     def expect_element_visible(self, locator):
 
         expect(self.page.locator(locator)).to_be_visible()
+
+    def wait_for_element_visible(
+        self,
+        locator,
+        timeout=30000
+        ):
+
+        self.logger.info(
+        f"Waiting for element visibility: "
+        f"{locator}"
+        )
+
+        self.page.locator(locator).wait_for(
+        state="visible",
+        timeout=timeout
+        )
+    
+    def wait_for_element_hidden(
+        self,
+        locator,
+        timeout=30000
+        ):
+
+        self.logger.info(
+        f"Waiting for element hidden: "
+        f"{locator}"
+        )
+
+        self.page.locator(locator).wait_for(
+        state="hidden",
+        timeout=timeout
+        )
+
+    def wait_for_text(
+        self,
+        locator,
+        text,
+        timeout=30000
+        ):
+
+        self.logger.info(
+        f"Waiting for text '{text}' "
+        f"in locator: {locator}"
+        )
+
+        self.page.locator(locator).wait_for(
+        timeout=timeout
+        )
+
+        assert (
+        text in
+        self.page.locator(locator).text_content()
+        )
