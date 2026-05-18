@@ -112,3 +112,18 @@
 2026-05-18 20:44:28,062 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
 2026-05-18 20:44:28,062 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
 2026-05-18 20:45:19,454 | INFO | framework | Waiting for element visibility: #username
+2026-05-18 23:04:06,191 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 23:04:06,191 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 23:04:15,307 | INFO | framework | Waiting for response containing: practice-test-login
+2026-05-18 23:06:13,741 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 23:06:13,742 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 23:06:33,946 | INFO | framework | Waiting for response containing: practice-test-login
+2026-05-18 23:08:33,386 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 23:08:33,386 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 23:09:14,412 | INFO | framework | Waiting for response containing: practice-test-login
+2026-05-18 23:09:14,415 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-18 23:09:14,415 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-19 00:27:07,997 | INFO | framework | Accessing shadow DOM element: #input
+2026-05-19 00:28:29,588 | INFO | framework | Accessing shadow DOM element: button
+2026-05-19 00:49:58,137 | INFO | framework | Waiting for new tab/window
+2026-05-19 01:21:34,634 | INFO | framework | Uploading file: /Users/ggnmac2000755/automation_Framework/test_data/files/sample_upload.txt

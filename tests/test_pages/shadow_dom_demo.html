@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shadow DOM Demo</title>
+</head>
+
+<body>
+
+    <div id="host"></div>
+
+    <script>
+
+        const host =
+            document.querySelector("#host");
+
+        const shadowRoot =
+            host.attachShadow({
+                mode: "open"
+            });
+
+        shadowRoot.innerHTML = `
+            <button id="shadow-button">
+                Click Me
+            </button>
+        `;
+
+    </script>
+
+</body>
+
+</html>
