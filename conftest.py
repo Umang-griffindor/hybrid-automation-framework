@@ -44,3 +44,14 @@ def screenshot_on_failure(request, page):  # fixture receives request and Playwr
             page.screenshot(path=screenshot_path)  # Playwright API to capture a screenshot on failure
 
             print(f"\nScreenshot saved: {screenshot_path}")  # Python print for console feedback
+
+@pytest.fixture
+def login_page(page):
+
+    from pages.login_page import LoginPage
+
+    login_page = LoginPage(page)
+
+    login_page.open_login_page()
+
+    return login_page

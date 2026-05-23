@@ -1,48 +1,268 @@
-from utils.logger import get_logger  # Python import of custom logger helper for framework logging
+import requests
+import time
+from utils.logger import get_logger
 
-import requests  # Python import of requests library for HTTP API calls
 
+class APIClient:
 
-class APIClient:  # Python class that wraps API request behavior for reuse
+    def __init__(self):
 
-    def __init__(self):  # Python constructor initializes the reusable logger instance
+        self.logger = get_logger()
 
-        self.logger = get_logger()  # create a logger from utils.logger for request tracing
-
-    def get(self, url, headers=None):  # method syntax for sending HTTP GET requests
+    def get(
+        self,
+        url,
+        headers=None,
+        params=None
+    ):
 
         self.logger.info(
-            f"Sending GET request to: {url}"
-        )  # logger call records the outgoing request URL
+            f"GET Request URL: {url}"
+        )
+
+        self.logger.info(
+            f"Request Headers: {headers}"
+        )
+
+        self.logger.info(
+            f"Request Params: {params}"
+        )
+
+        start_time = time.time()
 
         response = requests.get(
+
             url,
-            headers=headers
-        )  # requests library call performs the GET request
+
+            headers=headers,
+
+            params=params
+        )
+
+        end_time = time.time()
+
+        response_time = (
+            end_time - start_time
+        )
 
         self.logger.info(
-            f"Received response: "
+            f"Response Status: "
             f"{response.status_code}"
-        )  # logger call records the response status code for debugging
-
-        return response  # return statement makes the HTTP response available to tests
-
-
-    def post(self, url, payload=None, headers=None):  # method syntax for sending HTTP POST requests
+        )
 
         self.logger.info(
-            f"Sending POST request to: {url}"
-        )  # log the outgoing POST URL
+            f"Response Body: "
+            f"{response.text}"
+        )
+
+        self.logger.info(
+            f"Response Time: "
+            f"{response_time:.2f} seconds"
+        )
+
+        return response, response_time
+
+    def post(
+        self,
+        url,
+        payload=None,
+        headers=None
+    ):
+
+        self.logger.info(
+        f"POST Request URL: {url}"
+        )
+
+        self.logger.info(
+        f"Request Headers: {headers}"
+        )
+
+        self.logger.info(
+        f"Request Payload: {payload}"
+        )
+
+        start_time = time.time()
 
         response = requests.post(
-            url,
-            json=payload,
-            headers=headers
-        )  # requests call sends JSON payload and optional headers
+
+        url,
+
+        json=payload,
+
+        headers=headers
+        )
+
+        end_time = time.time()
+
+        response_time = (
+            end_time - start_time
+        )
 
         self.logger.info(
-            f"Received response: "
-            f"{response.status_code}"
-        )  # log the returned status code for validation
+            f"Response Time: "
+            f"{response_time:.2f} seconds"
+        )
 
-        return response  # return the response object to the calling test or helper
+        self.logger.info(
+        f"Response Status: "
+        f"{response.status_code}"
+        )
+
+        self.logger.info(
+        f"Response Body: "
+        f"{response.text}"
+        )
+
+        return response, response_time
+
+    def put(
+        self,
+        url,
+        payload=None,
+        headers=None
+    ):
+
+        self.logger.info(
+            f"PUT Request URL: {url}"
+        )
+
+        self.logger.info(
+            f"Request Headers: {headers}"
+        )
+
+        self.logger.info(
+            f"Request Payload: {payload}"
+        )
+
+        start_time = time.time()
+
+        response = requests.put(
+
+            url,
+
+            json=payload,
+
+            headers=headers
+        )
+
+        end_time = time.time()
+
+        response_time = (
+            end_time - start_time
+        )
+
+        self.logger.info(
+            f"Response Status: "
+            f"{response.status_code}"
+        )
+
+        self.logger.info(
+            f"Response Body: "
+            f"{response.text}"
+        )
+
+        self.logger.info(
+            f"Response Time: "
+            f"{response_time:.2f} seconds"
+        )
+
+        return response, response_time
+
+    def patch(
+        self,
+        url,
+        payload=None,
+        headers=None
+    ):
+
+        self.logger.info(
+            f"PATCH Request URL: {url}"
+        )
+
+        self.logger.info(
+            f"Request Headers: {headers}"
+        )
+
+        self.logger.info(
+            f"Request Payload: {payload}"
+        )
+
+        start_time = time.time()
+
+        response = requests.patch(
+
+            url,
+
+            json=payload,
+
+            headers=headers
+        )
+
+        end_time = time.time()
+
+        response_time = (
+            end_time - start_time
+        )
+
+        self.logger.info(
+            f"Response Status: "
+            f"{response.status_code}"
+        )
+
+        self.logger.info(
+            f"Response Body: "
+            f"{response.text}"
+        )
+
+        self.logger.info(
+            f"Response Time: "
+            f"{response_time:.2f} seconds"
+        )
+
+        return response, response_time
+
+    def delete(
+        self,
+        url,
+            headers=None
+    ):
+
+        self.logger.info(
+            f"DELETE Request URL: {url}"
+        )
+
+        self.logger.info(
+            f"Request Headers: {headers}"
+        )
+
+        start_time = time.time()
+
+        response = requests.delete(
+
+            url,
+
+            headers=headers
+        )
+
+        end_time = time.time()
+
+        response_time = (
+            end_time - start_time
+        )
+
+        self.logger.info(
+            f"Response Status: "
+            f"{response.status_code}"
+        )
+
+        self.logger.info(
+            f"Response Body: "
+            f"{response.text}"
+        )
+
+        self.logger.info(
+            f"Response Time: "
+            f"{response_time:.2f} seconds"
+        )
+
+        return response, response_time

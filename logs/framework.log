@@ -127,3 +127,104 @@
 2026-05-19 00:28:29,588 | INFO | framework | Accessing shadow DOM element: button
 2026-05-19 00:49:58,137 | INFO | framework | Waiting for new tab/window
 2026-05-19 01:21:34,634 | INFO | framework | Uploading file: /Users/ggnmac2000755/automation_Framework/test_data/files/sample_upload.txt
+2026-05-22 23:53:07,578 | INFO | framework | Sending POST request to: https://jsonplaceholder.typicode.com/posts
+2026-05-22 23:53:09,400 | INFO | framework | Received response: 201
+2026-05-22 23:53:09,706 | INFO | framework | Sending POST request to: https://jsonplaceholder.typicode.com/posts
+2026-05-22 23:53:11,131 | INFO | framework | Received response: 201
+2026-05-22 23:53:11,497 | INFO | framework | Uploading file: D:\hybrid-automation-framework\test_data\files\sample_upload.txt
+2026-05-22 23:53:24,283 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-22 23:53:24,283 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-22 23:53:28,518 | INFO | framework | Waiting for element visibility: #username
+2026-05-22 23:53:28,560 | INFO | framework | Entering text into locator: #username
+2026-05-22 23:53:28,592 | INFO | framework | Entering text into locator: #password
+2026-05-22 23:53:28,615 | INFO | framework | Waiting for element visibility: #submit
+2026-05-22 23:53:28,634 | INFO | framework | Safely clicking element: #submit
+2026-05-22 23:53:29,894 | INFO | framework | Getting text from locator: .post-title
+2026-05-22 23:53:30,047 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-22 23:53:30,047 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-22 23:53:34,805 | INFO | framework | Waiting for element visibility: #username
+2026-05-22 23:53:34,846 | INFO | framework | Entering text into locator: #username
+2026-05-22 23:53:34,870 | INFO | framework | Entering text into locator: #password
+2026-05-22 23:53:34,887 | INFO | framework | Waiting for element visibility: #submit
+2026-05-22 23:53:34,903 | INFO | framework | Safely clicking element: #submit
+2026-05-22 23:53:40,459 | INFO | framework | Waiting for new tab/window
+2026-05-22 23:53:41,290 | INFO | framework | Waiting for response containing: practice-test-login
+2026-05-22 23:53:41,298 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-22 23:53:41,298 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-22 23:53:45,422 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-22 23:53:45,422 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-22 23:53:49,028 | INFO | framework | Waiting for spinner to disappear: .loading-spinner
+2026-05-22 23:53:49,165 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-22 23:53:49,165 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-22 23:53:53,435 | INFO | framework | Waiting for element visibility: #username
+2026-05-22 23:53:53,582 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-22 23:53:53,582 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-22 23:53:57,331 | INFO | framework | Waiting for element visibility: #username
+2026-05-22 23:53:57,374 | INFO | framework | Entering text into locator: #username
+2026-05-22 23:53:57,400 | INFO | framework | Entering text into locator: #password
+2026-05-22 23:53:57,415 | INFO | framework | Waiting for element visibility: #submit
+2026-05-22 23:53:57,424 | INFO | framework | Safely clicking element: #submit
+2026-05-23 01:30:12,232 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-23 01:30:12,232 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-23 01:30:26,558 | INFO | framework | Waiting for element visibility: #username
+2026-05-23 01:30:26,645 | INFO | framework | Entering text into locator: #username
+2026-05-23 01:30:26,692 | INFO | framework | Entering text into locator: #password
+2026-05-23 01:30:26,700 | INFO | framework | Waiting for element visibility: #submit
+2026-05-23 01:30:26,712 | INFO | framework | Safely clicking element: #submit
+2026-05-23 01:32:10,833 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-23 01:32:10,833 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-23 01:32:44,080 | INFO | framework | Waiting for element visibility: #username
+2026-05-23 01:32:44,129 | INFO | framework | Entering text into locator: #username
+2026-05-23 01:32:44,153 | INFO | framework | Entering text into locator: #password
+2026-05-23 01:32:44,174 | INFO | framework | Waiting for element visibility: #submit
+2026-05-23 01:32:44,197 | INFO | framework | Safely clicking element: #submit
+2026-05-23 01:48:50,153 | INFO | framework | Uploading file: D:\hybrid-automation-framework\test_data\files\sample_upload.txt
+2026-05-23 01:48:58,775 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-23 01:48:58,775 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-23 01:49:02,023 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-23 01:49:02,023 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-23 01:50:32,459 | INFO | framework | Waiting for response containing: practice-test-login
+2026-05-23 01:50:32,465 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-23 01:50:32,465 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-23 01:50:34,223 | INFO | framework | Waiting for new tab/window
+2026-05-23 01:50:34,999 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-23 01:50:34,999 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-23 01:50:58,655 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-23 01:50:58,655 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-23 01:51:17,910 | INFO | framework | Waiting for spinner to disappear: .loading-spinner
+2026-05-23 01:52:05,352 | INFO | framework | Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-05-23 01:52:05,360 | INFO | framework | Navigating to URL: https://practicetestautomation.com/practice-test-login/
+2026-05-23 22:00:24,762 | INFO | framework | POST Request: https://reqres.in/api/login
+2026-05-23 22:00:26,863 | INFO | framework | Response Status: 401
+2026-05-23 22:02:50,218 | INFO | framework | POST Request: https://reqres.in/api/login
+2026-05-23 22:02:51,765 | INFO | framework | Response Status: 401
+2026-05-23 22:10:18,425 | INFO | framework | POST Request: https://reqres.in/api/login
+2026-05-23 22:10:19,679 | INFO | framework | Response Status: 200
+2026-05-23 22:13:17,021 | INFO | framework | PUT Request: https://reqres.in/api/users/2
+2026-05-23 22:13:19,014 | INFO | framework | Response Status: 200
+2026-05-23 22:13:44,142 | INFO | framework | PATCH Request: https://reqres.in/api/users/2
+2026-05-23 22:13:45,403 | INFO | framework | Response Status: 200
+2026-05-23 22:14:14,380 | INFO | framework | DELETE Request: https://reqres.in/api/users/2
+2026-05-23 22:14:15,912 | INFO | framework | Response Status: 204
+2026-05-23 22:14:44,780 | INFO | framework | POST Request: https://jsonplaceholder.typicode.com/posts
+2026-05-23 22:14:46,415 | INFO | framework | Response Status: 201
+2026-05-23 22:22:00,902 | INFO | framework | POST Request: https://reqres.in/api/users
+2026-05-23 22:22:02,298 | INFO | framework | Response Status: 201
+2026-05-23 22:22:02,298 | INFO | framework | PUT Request: https://reqres.in/api/users/972
+2026-05-23 22:22:03,346 | INFO | framework | Response Status: 200
+2026-05-23 22:22:03,346 | INFO | framework | DELETE Request: https://reqres.in/api/users/972
+2026-05-23 22:22:04,007 | INFO | framework | Response Status: 204
+2026-05-23 22:31:27,370 | INFO | framework | GET Request: https://reqres.in/api/users/2
+2026-05-23 22:31:28,957 | INFO | framework | Response Status: 200
+2026-05-23 22:40:23,917 | INFO | framework | GET Request: https://reqres.in/api/users/2
+2026-05-23 22:40:25,298 | INFO | framework | Response Status: 200
+2026-05-23 22:47:56,901 | INFO | framework | POST Request: https://reqres.in/api/users
+2026-05-23 22:47:58,103 | INFO | framework | Response Status: 401
+2026-05-23 22:52:08,600 | INFO | framework | POST Request: https://reqres.in/api/users
+2026-05-23 22:52:09,918 | INFO | framework | Response Status: 201
+2026-05-24 00:14:53,427 | INFO | framework | GET Request URL: https://reqres.in/api/users/2
+2026-05-24 00:14:53,427 | INFO | framework | Request Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'x-api-key': 'free_user_3E8JQZuOoIzzdQ6zpkZL2ETlk4n'}
+2026-05-24 00:14:53,427 | INFO | framework | Request Params: None
+2026-05-24 00:14:54,813 | INFO | framework | Response Status: 200
+2026-05-24 00:14:54,813 | INFO | framework | Response Body: {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
+2026-05-24 00:14:54,813 | INFO | framework | Response Time: 1.39 seconds

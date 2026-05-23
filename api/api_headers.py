@@ -1,14 +1,28 @@
-from api.auth import AuthAPI  # import auth helper from the API auth module
+class APIHeaders:
 
-
-class APIHeaders:  # Python class grouping API header helper methods
-
-    @staticmethod  # static method syntax since no instance state is needed
-    def default_headers():  # method returns the standard headers used for API requests
-
-        token = AuthAPI.get_token()  # get a reusable token to add into Authorization header
+    @staticmethod
+    def default_headers():
 
         return {
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {token}"
-        }  # return Python dict used by APIClient for authenticated JSON calls
+
+            "Content-Type":
+            "application/json",
+
+            "Accept":
+            "application/json",
+
+            "x-api-key":
+            "free_user_3E8JQZuOoIzzdQ6zpkZL2ETlk4n"
+        }
+    @staticmethod
+    def auth_headers(token):
+
+        headers = (
+            APIHeaders.default_headers()
+        )
+
+        headers[
+            "Authorization"
+        ] = f"Bearer {token}"
+
+        return headers
