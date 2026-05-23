@@ -6,7 +6,10 @@ class DBManager:
     def __init__(self):
 
         self.connection = sqlite3.connect(
-            "database/framework.db"
+
+            "database/framework.db",
+
+            isolation_level=None
         )
 
         self.cursor = (
@@ -28,8 +31,7 @@ class DBManager:
         """
 
         self.cursor.execute(query)
-
-        self.connection.commit()   
+   
 
     def insert_user(
         self,
@@ -52,7 +54,7 @@ class DBManager:
             (name, role)
         )
 
-        self.connection.commit() 
+     
 
     def fetch_user_by_name(
         self,
@@ -98,7 +100,7 @@ class DBManager:
             (new_role, name)
         )
 
-        self.connection.commit()
+        
 
     def delete_user(
         self,
@@ -119,4 +121,45 @@ class DBManager:
             (name,)
         )
 
+
+    def close_connection(self):
+
+        self.connection.close()
+
+    def begin_transaction(self):
+
+        self.connection.execute(
+            "BEGIN"
+    )
+
+
+    def rollback_transaction(self):
+
+        self.connection.rollback()
+
+
+    def commit_transaction(self):
+
         self.connection.commit()
+
+    def fetch_user_by_id(
+        self,
+        user_id
+    ):
+
+        query = """
+
+        SELECT *
+        FROM users
+
+        WHERE id = ?
+        """
+
+        self.cursor.execute(
+
+            query,
+
+            (user_id,)
+        )
+
+        return self.cursor.fetchone()
