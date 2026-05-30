@@ -19,17 +19,22 @@ class AuthAPI:
             "cityslicka"
         }
 
-        response = api_client.post(
+        response, response_time = (
 
-            "https://reqres.in/api/login",
+            api_client.post(
+
+                "https://reqres.in/api/login",
 
             payload=payload,
 
             headers=
             APIHeaders.default_headers()
         )
+    )
 
-        response_data = response.json()
+        response_data = (
+            response.json()
+    )
 
         print(response.status_code)
 
