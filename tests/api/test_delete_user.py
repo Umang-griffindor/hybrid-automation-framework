@@ -6,7 +6,7 @@ def test_delete_user():
 
     api_client = APIClient()
 
-    response = api_client.delete(
+    response, response_time = api_client.delete(
 
         "https://reqres.in/api/users/2",
 

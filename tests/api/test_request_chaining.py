@@ -18,7 +18,7 @@ def test_request_chaining():
         "job": "Automation Engineer"
     }
 
-    create_response = api_client.post(
+    create_response, create_response_time = api_client.post(
 
         "https://reqres.in/api/users",
 
@@ -54,7 +54,7 @@ def test_request_chaining():
         "job": "Senior Engineer"
     }
 
-    update_response = api_client.put(
+    update_response, update_response_time = api_client.put(
 
         f"https://reqres.in/api/users/{user_id}",
 
@@ -73,7 +73,7 @@ def test_request_chaining():
         == 200
     )
 
-    delete_response = api_client.delete(
+    delete_response, delete_response_time = api_client.delete(
 
         f"https://reqres.in/api/users/{user_id}",
 

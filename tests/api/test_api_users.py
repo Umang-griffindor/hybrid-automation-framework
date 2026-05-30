@@ -16,7 +16,7 @@ def test_create_post():  # pytest test function that validates creating a new po
         "userId": 1
     }  # Python dict payload used for the API POST body
 
-    response = api_client.post(
+    response, response_time = api_client.post(
         f"{config['api_base_url']}/posts",
         payload=payload,
         headers=APIHeaders.default_headers()

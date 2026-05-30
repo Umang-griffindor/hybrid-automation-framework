@@ -13,7 +13,7 @@ def test_create_post():  # pytest test function for creating a post against a pu
         "userId": 1
     }  # JSON payload representing a new post
 
-    response = api_client.post(
+    response, response_time = api_client.post(
         "https://jsonplaceholder.typicode.com/posts",
         payload=payload,
         headers=APIHeaders.default_headers()

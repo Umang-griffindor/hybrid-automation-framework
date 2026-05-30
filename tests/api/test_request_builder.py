@@ -37,7 +37,7 @@ def test_request_builder():
 
     api_client = APIClient()
 
-    response = api_client.post(
+    response, response_time = api_client.post(
 
         "https://reqres.in/api/users",
 

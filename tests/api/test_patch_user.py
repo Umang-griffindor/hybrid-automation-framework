@@ -11,7 +11,7 @@ def test_patch_user():
         "job": "Architect"
     }
 
-    response = api_client.patch(
+    response, response_time = api_client.patch(
 
         "https://reqres.in/api/users/2",
 

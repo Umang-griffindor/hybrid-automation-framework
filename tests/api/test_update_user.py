@@ -13,7 +13,7 @@ def test_update_user():
         "job": "Senior Automation Engineer"
     }
 
-    response = api_client.put(
+    response, response_time = api_client.put(
 
         "https://reqres.in/api/users/2",
 

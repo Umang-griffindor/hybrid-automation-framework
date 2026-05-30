@@ -15,7 +15,7 @@ def test_user_schema():
 
     api_client = APIClient()
 
-    response = api_client.get(
+    response, response_time = api_client.get(
 
         "https://reqres.in/api/users/2",
 
