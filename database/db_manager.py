@@ -163,3 +163,50 @@ class DBManager:
         )
 
         return self.cursor.fetchone()
+    
+    def fetch_all_users(self):
+
+        query = """
+
+            SELECT *
+            FROM users
+
+            """
+
+        self.cursor.execute(
+        query
+        )
+
+        return self.cursor.fetchall()
+    
+    def get_user_count(self):
+
+        query = """
+
+        SELECT COUNT(*)
+        FROM users
+
+        """
+
+        self.cursor.execute(
+            query
+        )
+
+        return self.cursor.fetchone()[0]
+    
+    def fetch_users_sorted_by_name(self):
+
+        query = """
+
+            SELECT *
+            FROM users
+
+            ORDER BY name ASC
+
+        """
+
+        self.cursor.execute(
+        query
+        )
+
+        return self.cursor.fetchall()
