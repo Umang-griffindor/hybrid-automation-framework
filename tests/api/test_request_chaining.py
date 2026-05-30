@@ -35,6 +35,10 @@ def test_request_chaining():
         f"Create Response: "
         f"{create_data}"
     )
+    print(
+        f"Create API Response Time: "
+        f"{create_response_time}"
+ )
 
     user_id = create_data.get(
         "id"
